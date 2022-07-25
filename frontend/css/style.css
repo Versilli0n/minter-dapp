@@ -1,18 +1,18 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@1,500&family=Mukta:wght@300&family=Roboto+Mono:ital@1&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Poppins", sans-serif;
-  --font-secondary: "Arvo", serif;
-  --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
-  --font-color: #ffffff;
+  --font-primary: 'Ibarra Real Nova', serif;
+  --font-secondary: 'Mukta', sans-serif;
+  --font-code: 'Roboto Mono', monospace;
+  --bg-color: #df1739ec;
+  --bg-color-transparent: #0638944b;
+  --font-color: #000000;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #6623a8;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }

@@ -1,9 +1,9 @@
 const contractAddress = "0xb5a49Eb6777DA73A62FDE7A5aFD99C5E9f3CD546"; // Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "CryptoSpeechLess!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'CryptoSpeechLess is a collection of 1,000 unique auto-generated NFTs. SpeechLess, are a race of very advance species. They have been around since thousands of millennia. They truly have seen the universe and witnessed things, beyond the capabilities of our imagination and our ability to grasp. That may be the very reason they evolved to lose their voice. Words to communicate and a voice to be heard, they can create as well as destroy, they can bring peace and prosperity or wage war. SpeechLess, chose to be quiet. Silence, is not powerlessness and they are certainly not weak. Now, they watch over the universe, spread far and wide. Watching everything, silently.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
