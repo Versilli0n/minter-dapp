@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1001,
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
       { name: "Body color" },
@@ -33,7 +33,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "", // Replace with your website or remove this line if you do not have one.
+  external_url: "" // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -54,7 +54,7 @@ const MINT_PRICE = 40; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, 
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-07-25T00:15:05+05:30"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-26T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -89,7 +89,7 @@ try {
 
 const solanaMetadata = {
   symbol: "CSL",
-  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
